@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Local config — never commit a real API key
+# (config.py is tracked with a placeholder; uncomment to keep local edits private)
+# config.py
+
+# Forensic run outputs
+forensic_results/
+!forensic_results/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
